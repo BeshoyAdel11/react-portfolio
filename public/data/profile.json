@@ -1,0 +1,46 @@
+{
+    "name": "Beshoy Adel",
+
+    "profilePictureUrl": "images/pictures/profile-picture.jpg",
+    "resumePdfUrl": "",
+
+    "statusCircleVisible": true,
+    "statusCircleVariant": "available",
+    "statusCircleHoverMessage": "status_message_available_for_freelance",
+
+    "locales": {
+        "en": {
+            "localized_name": "Beshoy Adel",
+            "localized_name_stylized": " [[Beshoy {{Adel}}]]",
+            "status_message_available_for_freelance": "Available for freelance!",
+            "roles": [
+                "Frontend Developer (Web Apps)",
+                "Frontend Developer (Mobile Apps)"
+            ]
+        },
+        "es": {
+            "localized_name": "Beshoy Adel",
+            "status_message_available_for_freelance": "Available for freelance!",
+            "roles": [
+                "Frontend Developer (Web Apps)",
+                "Frontend Developer (Mobile Apps)"
+            ]
+        },
+        "fr": {
+            "localized_name": "Beshoy Adel",
+            "status_message_available_for_freelance": "Available for freelance!",
+            "roles": [
+                "Frontend Developer (Web Apps)",
+                "Frontend Developer (Mobile Apps)"
+            ]
+        },
+        "ko": {
+            "localized_name": "Beshoy Adel",
+            "status_message_available_for_freelance": "Available for freelance!",
+            "roles": [
+                "Frontend Developer (Web Apps)",
+                "Frontend Developer (Mobile Apps)"
+            ]
+        }
+    }
+}

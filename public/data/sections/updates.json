@@ -1,0 +1,144 @@
+{
+    "title": {
+        "locales": {
+            "en": {
+                "title_short": "Life recently",
+                "title_short_nav": "Updates",
+                "title_long_prefix": "Take a look at my",
+                "title_long": "Recent {{Updates}}"
+            },
+            "es": {
+                "title_short": "Vida Reciente",
+                "title_short_nav": "Actualizaciones",
+                "title_long_prefix": "Consulta mis",
+                "title_long": "Actualizaciones {{Recientes}}"
+            },
+            "fr": {
+                "title_short": "Vie Récente",
+                "title_short_nav": "Mises à Jour",
+                "title_long_prefix": "Découvrez mes",
+                "title_long": "Dernières {{Mises à Jour}}"
+            },
+            "ko": {
+                "title_short": "최근의 삶",
+                "title_short_nav": "업데이트",
+                "title_long_prefix": "내 최근",
+                "title_long": "{{업데이트}}를 확인해 보세요"
+            }
+        }
+    },
+
+    "articles": [
+        {
+            "id": 1,
+            "component": "ArticleFacts",
+            "locales": {},
+            "settings": {
+                "order_items_by": "id",
+                "order_items_sort": "asc"
+            },
+            "items": [
+                {
+                    "id": 1,
+                    "img": null,
+                    "faIcon": "fa-solid fa-tablet-screen-button",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "locales": {
+                        "en": {
+                            "title": "02",
+                            "text": "Apps Published"
+                        },
+                        "es": {"text": "Aplicaciones Publicadas"},
+                        "fr": {"text": "Applications Publiées"},
+                        "ko": {"text": "출시된 앱"}
+                    }
+                },
+                {
+                    "id": 4,
+                    "img": null,
+                    "faIcon": "fa-solid fa-diagram-project",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "locales": {
+                        "en": {
+                            "title": "06",
+                            "text": "Open-source projects"
+                        },
+                        "es": {"text": "Proyectos de Código Abierto"},
+                        "fr": {"text": "Projets Open-source"},
+                        "ko": {"text": "오픈 소스 프로젝트"}
+                    }
+                },
+                {
+                    "id": 6,
+                    "img": null,
+                    "faIcon": "fa-solid fa-laptop-code",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "locales": {
+                        "en": {
+                            "title": "1,000,000+",
+                            "text": "Lines of code"
+                        },
+                        "es": {"text": "Líneas de código"},
+                        "fr": {"text": "Lignes de code"},
+                        "ko": {"text": "코드 라인 수"}
+                    }
+                },
+                {
+                    "id": 7,
+                    "img": null,
+                    "faIcon": "fa-solid fa-heart",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "locales": {
+                        "en": {
+                            "title": "Infinite",
+                            "text": "Passion for learning"
+                        },
+                        "es": {"title": "Infinita", "text": "Pasión por Aprender"},
+                        "fr": {"title": "Infinie", "text": "Passion d'apprendre"},
+                        "ko": {"title": "무한대", "text": "배움에 대한 열정"}
+                    }
+                }
+            ]
+        },
+
+        {
+            "id": 2,
+            "component": "ArticleThread",
+            "locales": {
+                "en": { "title": "Quick {{Facts}}" },
+                "es": { "title": "Feed de {{Noticias}}" },
+                "fr": { "title": "Fil d'{{Actualités}}" },
+                "ko": { "title": "{{뉴스}} 피드" }
+            },
+            "settings": {
+                "max_rows_collapse_threshold": 3,
+                "order_items_by": "dateStart",
+                "order_items_sort": "desc"
+            },
+            "items": [
+                {
+                    "id": 100,
+                    "date": {"year": 2025, "month": 6},
+                    "preview": {"links": [], "screenshots": [], "screenshotsAspectRatio": "", "youtubeVideo": ""},
+                    "locales": {
+                        "en": {
+                            "title": "Graduation",
+                            "text": "Graduated in 2025 with a B.Sc. in Information Systems, with a grade of Very Good."
+                        }
+                    }
+                },
+                {
+                    "id": 101,
+                    "date": {"year": 2025, "month": 6},
+                    "preview": {"links": [], "screenshots": [], "screenshotsAspectRatio": "", "youtubeVideo": ""},
+                    "locales": {
+                        "en": {
+                            "title": "Current Status",
+                            "text": "Currently seeking opportunities: open to freelance projects or full-time positions."
+                        }
+                    }
+                }
+            ]
+        }
+    ]
+}

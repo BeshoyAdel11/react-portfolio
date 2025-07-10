@@ -1,0 +1,240 @@
+{
+    "title": {
+        "locales": {
+            "en": {
+                "title_short": "Portfolio",
+                "title_short_nav": "Portfolio",
+                "title_long_prefix": "Take a look at",
+                "title_long": "My {{Portfolio}}"
+            },
+            "es": {
+                "title_short": "Portafolio",
+                "title_short_nav": "Portafolio",
+                "title_long_prefix": "Explora",
+                "title_long": "Mi {{Portafolio}}"
+            },
+            "fr": {
+                "title_short": "Portfolio",
+                "title_short_nav": "Portfolio",
+                "title_long_prefix": "Découvrez",
+                "title_long": "Mon {{Portfolio}}"
+            },
+            "ko": {
+                "title_short": "포트폴리오",
+                "title_short_nav": "포트폴리오",
+                "title_long_prefix": "이것은 내",
+                "title_long": "{{포트폴리오}}입니다"
+            }
+        }
+    },
+
+    "articles": [
+        {
+            "id": 1,
+            "component": "ArticlePortfolio",
+            "locales": {
+                "en": {
+                    "category_all": "All",
+                    "category_apps": "Apps",
+                    "category_web": "Web"
+                },
+                "es": {
+                    "category_all": "Todo",
+                    "category_apps": "Apps",
+                    "category_web": "Web"
+                },
+                "fr": {
+                    "category_all": "Tout",
+                    "category_apps": "Apps",
+                    "category_web": "Web"
+                },
+                "ko": {
+                    "category_all": "모두",
+                    "category_apps": "앱",
+                    "category_web": "웹"
+                }
+            },
+            "settings": {
+                "categorize_by": ["category_apps", "category_web"],
+                "order_items_by": "id",
+                "order_items_sort": "asc"
+            },
+            "items": [
+                {
+                    "id": 5,
+                    "categoryId": "category_web",
+                    "img": "images/pictures/ShrewsburyPizza.png",
+                    "faIcon": "",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "preview": {
+                        "links": [
+                            {"href": "https://enchanting-shortbread-97b435.netlify.app/", "tooltipString": "open_website", "faIcon": "fa-solid fa-link"},
+                            {"href": "https://github.com/BeshoyAdel11/ShrewsburyPizza.git", "tooltipString": "see_on_github", "faIcon": "fa-brands fa-github"}
+                        ],
+                        "screenshots": [],
+                        "screenshotsAspectRatio": "16:9",
+                        "youtubeVideo": ""
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Shrewsbury Pizza – Modern Restaurant Ordering Web App",
+                            "text": "Shrewsbury Pizza is a fully responsive, visually appealing web application designed to provide an exceptional online ordering experience for restaurant customers. The platform allows users to seamlessly browse the menu, customize their own pizzas, manage their cart, and place orders with ease.<br/><br/><b>Key Features:</b><ul><li>Interactive Menu: Users can explore a rich menu with search and filter capabilities, making it easy to find their favorite dishes.</li><li>Build Your Own Pizza: A standout feature that lets customers create personalized pizzas by selecting size and ingredients, with a live visual preview.</li><li>Popular Dishes: Highlights best-selling and recommended items, complete with ratings and attractive visuals.</li><li>Shopping Cart: Add, remove, and adjust quantities of items in a persistent cart, with real-time price updates.</li><li>User Authentication: Secure sign-up, sign-in, and password reset flows for a personalized experience.</li><li>Responsive Design: Optimized for all devices, ensuring a smooth experience on desktop, tablet, and mobile.</li><li>Animated Splash Screen: Branded loading screen with logo and project colors for a polished first impression.</li><li>Modern UI/UX: Clean, intuitive interface with smooth transitions and consistent branding throughout.</li></ul><br/><b>Technologies Used:</b> React.js, React Router, Tailwind CSS, custom CSS, Framer Motion, Font Awesome, Google Fonts.<br/><br/>This project demonstrates advanced skills in modern frontend development, user experience design, and responsive web application architecture.",
+                            "tags": ["React.js", "Web App", "Restaurant", "Ordering", "Tailwind CSS", "Framer Motion", "UI/UX", "Responsive", "Frontend", "Pizza", "E-commerce"]
+                        }
+                    }
+                },
+                {
+                    "id": 6,
+                    "categoryId": "category_web",
+                    "img": "images/pictures/ShrewsburyPizza.png",
+                    "faIcon": "",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "preview": {
+                        "links": [
+                            {"href": "https://splendid-moonbeam-f69907.netlify.app/", "tooltipString": "open_website", "faIcon": "fa-solid fa-link"},
+                            {"href": "https://github.com/BeshoyAdel11/ShrewsburyPizza.git", "tooltipString": "see_on_github", "faIcon": "fa-brands fa-github"}
+                        ],
+                        "screenshots": [],
+                        "screenshotsAspectRatio": "16:9",
+                        "youtubeVideo": ""
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Shrewsbury Pizza – Admin Dashboard",
+                            "text": "The Shrewsbury Pizza Admin Dashboard is a comprehensive, responsive web interface designed for restaurant management and staff. Built to streamline operations, it provides powerful tools for overseeing menu items, orders, categories, coupons, and more, all within an intuitive and visually consistent environment.<br/><br/><b>Key Features:</b><ul><li>Sales Analytics: Visual dashboards and charts for tracking sales performance, order trends, and key business metrics.</li><li>Menu Management: Easily add, edit, or remove menu items, including images, descriptions, and prices.</li><li>Category & Topping Management: Organize food and topping categories, manage available options, and update offerings in real time.</li><li>Order Management: View, filter, and update customer orders, including order status and client details.</li><li>Coupon & Gift Card Management: Create and manage promotional codes and gift cards to boost customer engagement.</li><li>User Management: (If applicable) Control staff access and permissions for secure operations.</li><li>Responsive Design: The dashboard is fully optimized for large screens, ensuring a seamless and productive experience on desktop monitors and widescreen displays.</li><li>Modern UI/UX: Clean layouts, clear navigation, and consistent branding for efficient workflow and ease of use.</li></ul><br/><b>Technologies Used:</b> React.js, React Router, Tailwind CSS, custom CSS, Framer Motion, Font Awesome, Chart.js.<br/><br/>This dashboard showcases advanced skills in building scalable, maintainable admin interfaces with a focus on usability and performance for professional environments.",
+                            "tags": ["React.js", "Admin Dashboard", "Web App", "Restaurant", "Management", "Tailwind CSS", "Framer Motion", "UI/UX", "Responsive", "Frontend", "Analytics", "Chart.js", "E-commerce"]
+                        }
+                    }
+                },
+                {
+                    "id": 7,
+                    "categoryId": "category_web",
+                    "img": "images/pictures/izam.png",
+                    "faIcon": "",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "preview": {
+                        "links": [
+                            {"href": "https://rococo-crostata-537523.netlify.app/", "tooltipString": "open_website", "faIcon": "fa-solid fa-link"},
+                            {"href": "https://github.com/BeshoyAdel11/e-commerce-system.git", "tooltipString": "see_on_github", "faIcon": "fa-brands fa-github"}
+                        ],
+                        "screenshots": [],
+                        "screenshotsAspectRatio": "16:9",
+                        "youtubeVideo": ""
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "izam – E-Commerce React App",
+                            "text": "A fully functional web application for an online store that allows users to browse products, filter them by category or price, search for items, and add products to a shopping cart with full cart management and order summary features. The app includes a dedicated sign-in screen to provide a personalized user experience.<br/><br/><b>Key Features:</b><ul><li>User Authentication: Dedicated sign-in screen for user login.</li><li>Product Browsing: Browse products with search and advanced filtering by category and price.</li><li>Shopping Cart: Add products to the cart, adjust quantities, remove items, and view a detailed order summary (subtotal, shipping, tax, total).</li><li>Responsive Design: Fully responsive UI for optimal experience on all devices.</li><li>State Management: Centralized and efficient cart state management using Redux Toolkit.</li></ul><br/><b>Technologies & Tools Used:</b> React, Redux Toolkit, React Router DOM, Vite, Tailwind CSS, ESLint, PostCSS, Autoprefixer.<br/><br/><b>Technical Summary:</b> The application is built using the latest web technologies (React 18, Vite, Tailwind CSS) with a clear, reusable component structure. State management is handled via Redux Toolkit for high performance and easy tracking of cart state. The UI leverages Tailwind CSS for a fast, responsive, and modern look, with full support for product search, filtering, and order management.",
+                            "tags": ["React.js", "E-Commerce", "Web App", "Redux Toolkit", "Shopping Cart", "Tailwind CSS", "Vite", "Responsive", "Frontend", "Product Search", "Order Management", "Modern UI"]
+                        }
+                    }
+                },
+                {
+                    "id": 10,
+                    "categoryId": "category_apps",
+                    "img": "images/pictures/cross.jpg",
+                    "faIcon": "",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "preview": {
+                        "links": [
+                            {
+                                "href": "https://github.com/BeshoyAdel11/Lamp-To-My-Feet.git",
+                                "tooltipString": "see_on_github",
+                                "faIcon": "fa-brands fa-github"
+                            }
+                        ],
+                        "screenshots": [
+                            "images/pictures/lambofmyfeet-images/lambofmyfeet/image1.jpg",
+                            "images/pictures/lambofmyfeet-images/lambofmyfeet/image2.jpg",
+                            "images/pictures/lambofmyfeet-images/lambofmyfeet/image3.jpg",
+                            "images/pictures/lambofmyfeet-images/lambofmyfeet/image4.jpg",
+                            "images/pictures/lambofmyfeet-images/lambofmyfeet/admin-image1.jpg",
+                            "images/pictures/lambofmyfeet-images/lambofmyfeet/admin-image2.jpg",
+                            "images/pictures/lambofmyfeet-images/lambofmyfeet/admin-image4.jpg",
+                            "images/pictures/lambofmyfeet-images/lambofmyfeet/admin-image5.jpg",
+                            "images/pictures/lambofmyfeet-images/lambofmyfeet/admin-image6.jpg",
+                            "images/pictures/lambofmyfeet-images/lambofmyfeet/admin-image7.jpg",
+                            "images/pictures/lambofmyfeet-images/lambofmyfeet/admin-image8.jpg",
+                            "images/pictures/lambofmyfeet-images/lambofmyfeet/admin-image9.jpg",
+                            "images/pictures/lambofmyfeet-images/lambofmyfeet/admin-imge3.jpg",
+                            "images/pictures/lambofmyfeet-images/lambofmyfeet/user-image1.jpg",
+                            "images/pictures/lambofmyfeet-images/lambofmyfeet/user-image2.jpg",
+                            "images/pictures/lambofmyfeet-images/lambofmyfeet/user-image3.jpg",
+                            "images/pictures/lambofmyfeet-images/lambofmyfeet/user-image4.jpg",
+                            "images/pictures/lambofmyfeet-images/lambofmyfeet/user-image5.jpg",
+                            "images/pictures/lambofmyfeet-images/lambofmyfeet/user-image6.jpg",
+                            "images/pictures/lambofmyfeet-images/lambofmyfeet/user-image7.jpg"
+                        ],
+                        "screenshotsAspectRatio": "9:16",
+                        "youtubeVideo": ""
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Lamp To My Feet",
+                            "text": "<b>Lamp To My Feet</b> is a comprehensive React Native/Expo application for religious community management. It features secure authentication, attendance tracking, real-time chat, notifications, and knowledge sharing. The app supports two main roles: <b>Admin</b> and <b>User</b>, each with tailored dashboards and features.<br/><br/><b>Admin Features:</b> Manage users, attendance, content, notifications, and chat.<br/><b>User Features:</b> View points, attendance, access knowledge base, receive notifications, chat with admins, and manage profile.<br/><br/>The app is fully responsive, supports Arabic (RTL), and handles offline scenarios. Built with React Native, Expo, Firebase, and modern state management.<br/><br/><b>Technologies:</b> React Native, Expo, Firebase, Firestore, Tailwind CSS (NativeWind), Expo Router, Zustand, Context API.",
+                            "tags": [
+                                "React Native",
+                                "Expo",
+                                "Firebase",
+                                "Community",
+                                "Attendance",
+                                "Chat",
+                                "Notifications",
+                                "Role-based"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": 11,
+                    "categoryId": "category_apps",
+                    "img": "images/pictures/vite.png",
+                    "faIcon": "",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "preview": {
+                        "links": [
+                            {
+                                "href": "https://github.com/BeshoyAdel11/Vibe-store.git",
+                                "tooltipString": "see_on_github",
+                                "faIcon": "fa-brands fa-github"
+                            }
+                        ],
+                        "screenshots": [
+                            "images/pictures/vibe-store/vibe-store/image1.jpg",
+                            "images/pictures/vibe-store/vibe-store/image2.jpg",
+                            "images/pictures/vibe-store/vibe-store/image3.jpg",
+                            "images/pictures/vibe-store/vibe-store/image4.jpg",
+                            "images/pictures/vibe-store/vibe-store/image5.jpg",
+                            "images/pictures/vibe-store/vibe-store/image6.jpg",
+                            "images/pictures/vibe-store/vibe-store/image7.jpg",
+                            "images/pictures/vibe-store/vibe-store/image8.jpg",
+                            "images/pictures/vibe-store/vibe-store/image9.jpg",
+                            "images/pictures/vibe-store/vibe-store/image10.jpg",
+                            "images/pictures/vibe-store/vibe-store/image11.jpg",
+                            "images/pictures/vibe-store/vibe-store/image12.jpg",
+                            "images/pictures/vibe-store/vibe-store/image13.jpg"
+                        ],
+                        "screenshotsAspectRatio": "9:16",
+                        "youtubeVideo": ""
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Vibe Store",
+                            "text": "<b>Vibe Store</b> is a modern, full-featured e-commerce mobile application built with React Native and Expo. The app provides a seamless shopping experience, allowing users to browse products, manage their cart, place orders, and track their purchases. The project demonstrates advanced state management, real-time data fetching, and a user-friendly interface optimized for mobile devices.<br/><br/><b>Main Features:</b><br/>- Product browsing with categories, images, ratings, and discounts.<br/>- Search, filtering, and detailed product pages.<br/>- Shopping cart, checkout, and order management.<br/>- Favorites, coupons, notifications, and location selection.<br/>- Custom splash screen and theming.<br/><br/><b>Technologies:</b> React Native, Expo, Redux Toolkit, NativeWind, Tailwind CSS, React Navigation, React Native Maps, AsyncStorage, Sanity.io, @sanity/client.",
+                            "tags": [
+                                "React Native",
+                                "Expo",
+                                "E-commerce",
+                                "Redux Toolkit",
+                                "Sanity.io",
+                                "Mobile App",
+                                "Shopping",
+                                "Cart"
+                            ]
+                        }
+                    }
+                }
+            ]
+        }
+    ]
+}

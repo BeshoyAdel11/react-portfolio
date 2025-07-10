@@ -1,0 +1,63 @@
+{
+    "title": {
+        "locales": {
+            "en": {
+                "title_short": "Experience",
+                "title_short_nav": "Experience",
+                "title_long_prefix": "Summary of my",
+                "title_long": "{{Work}} Experience"
+            },
+            "es": {
+                "title_short": "Experiencia",
+                "title_short_nav": "Experiencia",
+                "title_long_prefix": "Resumen de mi",
+                "title_long": "Experiencia {{Laboral}}"
+            },
+            "fr": {
+                "title_short": "Expérience",
+                "title_short_nav": "Expérience",
+                "title_long_prefix": "Résumé de mon",
+                "title_long": "Parcours {{Professionel}}"
+            },
+            "ko": {
+                "title_short": "경험",
+                "title_short_nav": "경험",
+                "title_long_prefix": "이것은 내",
+                "title_long": "{{직업적}} 경험"
+            }
+        }
+    },
+
+    "articles": [
+        {
+            "id": 1,
+            "component": "ArticleTimeline",
+            "locales": {},
+            "settings": {
+                "order_items_by": "id",
+                "order_items_sort": "dateStart"
+            },
+            "items": [
+                {
+                    "id": 1,
+                    "img": "images/pictures/ShrewsburyPizza.png",
+                    "faIcon": "",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "dateStart": {"year": 2024, "month": 7},
+                    "dateEnd": {"year": 2025, "month": 1},
+                    "locales": {
+                        "en": {
+                            "title": "Freelance React Developer",
+                            "province": "Remote",
+                            "country": "",
+                            "institution": "Shrewsbury Pizza",
+                            "text": "Worked as a freelance React developer on the Shrewsbury Pizza project. Responsible for building and maintaining a modern, user-friendly web application for online pizza ordering. Implemented responsive UI, integrated real-time order tracking, and optimized the user experience for both desktop and mobile devices. Collaborated closely with the client to deliver a tailored solution that improved customer engagement and streamlined the ordering process.",
+                            "list": [],
+                            "tags": ["React", "Freelance", "Web App", "UI/UX"]
+                        }
+                    }
+                }
+            ]
+        }
+    ]
+}
